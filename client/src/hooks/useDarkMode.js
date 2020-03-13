@@ -5,7 +5,7 @@ export const useDarkMode = (initialValue) => {
   const [value, setValue] = useLocalStorage('toggled', initialValue);
 
   useEffect(() => {
-    const body = document.querySelector("body");
+    const body = document.querySelector(".App");
     if (value) {
       body.classList.add("dark-mode");
     } else {
