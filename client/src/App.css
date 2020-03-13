@@ -31,3 +31,12 @@
     transform: rotate(360deg);
   }
 }
+
+.dark-mode, .dark-mode header {
+  background: #000;
+  color: white;
+}
+
+.dark-mode table.table {
+  color: white;
+}
